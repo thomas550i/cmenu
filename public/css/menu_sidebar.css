@@ -1,0 +1,123 @@
+#body
+{
+	margin-left:80px !important;
+}
+#cmenu_sidebar {
+    width: 75px;
+    float: left;
+    position: fixed;
+    height: 100%;
+    top: 45px !important;
+    z-index:+10000;
+    background: #1a2035 !important;
+    color:#fff;	
+    overflow-y: auto;
+	
+}
+#cmenu_sidebar span {
+	display: none;
+        transition: all .3s;
+}
+
+#cmenu_sidebar:hover span  {
+    display: block;  /* Show p elements on hover */
+}
+
+#cmenu_sidebar:hover {
+	width: 250px;
+	z-index:+10000;
+        transition: all .3s;
+
+}
+
+#cmenu_sidebar ul {
+	list-style:none;
+}
+
+
+
+
+
+.menu, .items {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;  /* Remove default padding */
+    margin: 0;   /* Remove default margin */
+}
+
+/* Parent Menu Styles */
+.list {
+    position: relative;
+}
+
+.list > a {
+    display: flex;               /* Use flexbox for alignment */
+    align-items: center;        /* Center items vertically */
+    padding: 10px;  
+    text-decoration: none;
+    color: #fff; /* Parent text color */
+    transition: background-color 0.3s;
+}
+
+.list > a:hover {
+    background-color: #111216; /* Darker shade on hover */
+}
+
+/* Child Menu Styles */
+.items {
+    display: none; /* Initially hide child items */
+    padding-left: 0; /* Remove padding */
+}
+
+.items li a {
+    display: flex; /* Keep child items inline */
+    padding: 10px 15px; /* Adjust padding for child items */
+    text-decoration: none;
+    width: 100%;
+    color: #000; /* Child text color */
+    background-color: #f8f9fa; /* Child background color */
+}
+
+.items li a:hover {
+    background-color: #e2e6ea; /* Darker shade on hover for child */
+}
+
+/* Show child items when parent is active */
+.list.active .items {
+    display: block; /* Show child items when parent is active */
+}
+
+.menu a i {
+    margin-right: 10px;   
+    font-size: 20px; 
+    margin-left: 20px;     /* Add space between icon and text */
+}
+
+.items a i {
+    margin-right: 10px;   
+    font-size: 20px; 
+    margin-left: 20px;  
+    color:#4f4f4f /* Add space between icon and text */
+}
+
+.menu a p {
+    display:none;
+    margin: 0;                  /* Remove default margin from paragraph */
+}
+#cmenu_sidebar:hover .menu a p {
+    display:block;
+    margin: 0;                  /* Remove default margin from paragraph */
+}
+.caret{
+    margin-left: auto;
+    margin-right: 6px;
+    transition: all .5s;
+    color: #8d9498;
+    width: 0;
+    height: 0;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}

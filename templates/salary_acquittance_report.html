@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 0px solid black; padding: 4px; text-align: left; }
+       
+        .page-break { page-break-after: always; }
+        @page {
+            size: A4; /* or use 'letter' */
+            margin: -10mm; /* Reduce margin */
+        }
+    </style>
+</head>
+<body>
+    {% set months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+    {% set month_index = filters.from_date[5:7]|int - 1 %}
+
+{% for i in range(0, data|length, 6) %}
+<table style="width: 100%; border: none; border-collapse: collapse;">
+    <tr style="border: none;">
+        <td style="padding: 0; border: none;font-size: 30px;font-weight: bold;">Balavigna Wvg Mills (P) Ltd.</td>
+        <td style="padding: 0; text-align: right; border: none;">{{ months[month_index] }} {{ filters.from_date[:4] }}</td>
+    </tr>
+    <tr style="border: none;">
+        <td style="padding-top: 2px; border: none;">Uralipatti Road, Velvarkottai, Dindigul</td>
+        <td style="padding: 0; border: none;"></td>
+    </tr>
+    <tr style="border: none;">
+        <td style="padding-left: 10px; border: none;">PF Reg. No: TN/MDU/0041320</td>
+        <td style="padding: 0; border: none;">ESIC Reg. No: 57000473710000101</td>
+    </tr>
+</table>
+ 
+    <table style="width: 100%; border: none; border-collapse: collapse;" border="none" >
+        <tr style="border-bottom: solid 1px #000;">
+            <th style="width: 10px;">S.no</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>WDay</th>
+            <th>Nett</th>
+        </tr>
+        </table>
+        
+        {% for row in data[i:i+6] %}
+        <table>
+        <tr style="border: none;">
+            <td style="padding-bottom: 10px;width: 34px;">{{ loop.index + i }}</td>
+            <td >{{ row.employee_name }}</td>
+            <td>{{ row.designation }}</td>
+            <td><span style="font-weight: bold;">W.Days</span> {{ row.total_working_days }}</td>
+            <td ><span style="font-weight: bold;">NETT</span>  {{ row.net_pay }}</td>
+        </tr>
+    </table>
+    <table>
+        <tr style="border: none;">
+            <td style="width: 20px;padding-bottom: 30px;" >
+                <b>Basic DA:</b></td>
+            <td style="width: 30px;"> {{ row.basic }} </td> 
+            <td style="width: 20px;">    <b>HRA TA:</b></td>
+            <td style="width: 20px;"> {{ row.hra }} </td>
+            <td style="width: 20px;">   
+                <b>Earn:</b></td> 
+            <td style="width: 20px;"> {{ row.gross_pay }} </td>
+            <td style="width: 80px;">&nbsp;</td>
+        </tr>
+        <tr style="border: none;">
+            <td  style="padding-bottom: 10px;">
+                <b>PF:</b>
+            </td>
+            <td> 
+                {{ row.pf }} 
+            </td>
+            <td>   <b>ESI:</b></td> 
+            <td>{{ row.esi }} </td> 
+            <td>  <b>DEDU:</b> </td> 
+            <td>{{ row.total_deductions }}
+            </td>
+            <td style="width: 50px;">&nbsp;</td>
+        </tr>
+        <tr style="border-bottom:solid 1px #666;"><td colspan="7" style="text-align: right;">Signature</td></tr>
+        {% endfor %}
+    </table>
+
+    {% if not loop.last %}
+        <div class="page-break"></div>
+    {% endif %}
+
+{% endfor %}
+
+</body>
+</html>

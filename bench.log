@@ -1,0 +1,102 @@
+nohup: ignoring input
+14:54:51 system        | watch.1 started (pid=54276)
+14:54:51 system        | web.1 started (pid=54275)
+14:54:51 system        | schedule.1 started (pid=54281)
+14:54:51 system        | redis_cache.1 started (pid=54269)
+14:54:51 system        | worker.1 started (pid=54278)
+14:54:51 system        | socketio.1 started (pid=54277)
+14:54:51 redis_cache.1 | 54282:C 19 Sep 2024 14:54:51.056 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:54:51 redis_cache.1 | 54282:C 19 Sep 2024 14:54:51.066 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=54282, just started
+14:54:51 redis_cache.1 | 54282:C 19 Sep 2024 14:54:51.066 # Configuration loaded
+14:54:51 redis_cache.1 | 54282:M 19 Sep 2024 14:54:51.067 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+14:54:51 redis_cache.1 | 54282:M 19 Sep 2024 14:54:51.071 * Running mode=standalone, port=13000.
+14:54:51 redis_cache.1 | 54282:M 19 Sep 2024 14:54:51.071 # Server initialized
+14:54:51 redis_cache.1 | 54282:M 19 Sep 2024 14:54:51.071 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+14:54:51 redis_cache.1 | 54282:M 19 Sep 2024 14:54:51.072 * Ready to accept connections
+14:54:51 system        | redis_queue.1 started (pid=54301)
+14:54:51 redis_queue.1 | 54303:C 19 Sep 2024 14:54:51.164 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:54:51 redis_queue.1 | 54303:C 19 Sep 2024 14:54:51.169 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=54303, just started
+14:54:51 redis_queue.1 | 54303:C 19 Sep 2024 14:54:51.170 # Configuration loaded
+14:54:51 redis_queue.1 | 54303:M 19 Sep 2024 14:54:51.171 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+14:54:51 redis_queue.1 | 54303:M 19 Sep 2024 14:54:51.173 * Running mode=standalone, port=11000.
+14:54:51 redis_queue.1 | 54303:M 19 Sep 2024 14:54:51.173 # Server initialized
+14:54:51 redis_queue.1 | 54303:M 19 Sep 2024 14:54:51.174 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+14:54:51 redis_queue.1 | 54303:M 19 Sep 2024 14:54:51.175 * Ready to accept connections
+14:54:52 socketio.1    | Realtime service listening on:  9000
+14:54:52 watch.1       | 
+14:54:53 watch.1       | yarn run v1.22.22
+14:54:53 watch.1       | $ node esbuild --watch --live-reload
+14:54:53 web.1         | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+14:54:53 web.1         |  * Running on all addresses (0.0.0.0)
+14:54:53 web.1         |  * Running on http://127.0.0.1:8000
+14:54:53 web.1         |  * Running on http://206.189.87.74:8000
+14:54:53 web.1         | [33mPress CTRL+C to quit[0m
+14:54:53 web.1         |  * Restarting with stat
+14:54:55 web.1         |  * Debugger is active!
+14:54:55 web.1         |  * Debugger PIN: 116-534-576
+14:55:12 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:12] "GET /app/home HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:55:13 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:13] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+14:55:14 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:14] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+14:55:16 watch.1       | Browserslist: caniuse-lite is outdated. Please run:
+14:55:16 watch.1       |   npx update-browserslist-db@latest
+14:55:16 watch.1       |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+14:55:24 web.1         | 127.0.0.1 - - [19/Sep/2024 14:55:24] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+14:55:45 watch.1       | Watching for changes...
+14:57:12 web.1         | 127.0.0.1 - - [19/Sep/2024 14:57:12] "GET / HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /app/home HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/frappe/dist/css/desk.bundle.WLSWQTBY.css HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/frappe/dist/css/report.bundle.MVXLEQVM.css HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/erpnext/dist/css/erpnext.bundle.XOKDQUGO.css HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/frappe/icons/timeless/icons.svg?v=1726757745.4684896 HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/hrms/dist/css/hrms.bundle.GOPHTRE6.css HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/frappe/icons/espresso/icons.svg?v=1726757745.4684896 HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/frappe/dist/css/report.bundle.MVXLEQVM.css.map HTTP/1.0" 200 -
+14:58:18 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:18] "GET /assets/hrms/dist/css/hrms.bundle.GOPHTRE6.css.map HTTP/1.0" 200 -
+14:58:19 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:19] "GET /assets/erpnext/dist/css/erpnext.bundle.XOKDQUGO.css.map HTTP/1.0" 200 -
+14:58:19 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:19] "GET /assets/frappe/dist/css/desk.bundle.WLSWQTBY.css.map HTTP/1.0" 200 -
+14:58:19 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:19] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+14:58:20 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:20] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+14:58:21 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:21] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+14:58:21 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:21] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+14:58:21 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:21] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+14:58:30 web.1         | 127.0.0.1 - - [19/Sep/2024 14:58:30] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:00:17 system        | SIGTERM received
+15:00:17 system        | sending SIGTERM to redis_cache.1 (pid 54269)
+15:00:17 system        | sending SIGTERM to redis_queue.1 (pid 54301)
+15:00:17 system        | sending SIGTERM to web.1 (pid 54275)
+15:00:17 system        | sending SIGTERM to socketio.1 (pid 54277)
+15:00:17 system        | sending SIGTERM to watch.1 (pid 54276)
+15:00:17 system        | sending SIGTERM to schedule.1 (pid 54281)
+15:00:17 system        | sending SIGTERM to worker.1 (pid 54278)
+15:00:17 redis_cache.1 | 54282:signal-handler (1726758017) Received SIGTERM scheduling shutdown...
+15:00:17 system        | worker.1 stopped (rc=-15)
+15:00:17 redis_queue.1 | 54303:signal-handler (1726758017) Received SIGTERM scheduling shutdown...
+15:00:17 system        | socketio.1 stopped (rc=-15)
+15:00:17 system        | web.1 stopped (rc=-15)
+15:00:17 redis_cache.1 | 54282:M 19 Sep 2024 15:00:17.439 # User requested shutdown...
+15:00:17 redis_cache.1 | 54282:M 19 Sep 2024 15:00:17.439 * Removing the pid file.
+15:00:17 redis_cache.1 | 54282:M 19 Sep 2024 15:00:17.440 # Redis is now ready to exit, bye bye...
+15:00:17 system        | redis_cache.1 stopped (rc=-15)
+15:00:17 system        | schedule.1 stopped (rc=-15)
+15:00:17 redis_queue.1 | 54303:M 19 Sep 2024 15:00:17.457 # User requested shutdown...
+15:00:17 redis_queue.1 | 54303:M 19 Sep 2024 15:00:17.457 * Removing the pid file.
+15:00:17 redis_queue.1 | 54303:M 19 Sep 2024 15:00:17.457 # Redis is now ready to exit, bye bye...
+15:00:17 system        | redis_queue.1 stopped (rc=-15)
+15:00:17 system        | watch.1 stopped (rc=-15)
