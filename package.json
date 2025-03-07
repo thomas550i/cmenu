@@ -1,0 +1,11 @@
+{
+    "name": "cmenu",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "node esbuild --production --apps cmenu"
+    },
+    "dependencies": {
+      "esbuild": "^0.18.0"
+    }
+  }
+  
