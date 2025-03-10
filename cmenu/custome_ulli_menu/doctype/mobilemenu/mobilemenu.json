@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:menu_name",
+ "creation": "2025-02-08 19:48:03.769689",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "menu_name",
+  "role",
+  "parent_menu",
+  "menu_type",
+  "cmenudoctype",
+  "url",
+  "icon",
+  "orderno",
+  "is_active",
+  "dashboard"
+ ],
+ "fields": [
+  {
+   "fieldname": "menu_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Menu Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Link",
+   "label": "Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "parent_menu",
+   "fieldtype": "Link",
+   "label": "Parent Menu",
+   "options": "Menu"
+  },
+  {
+   "fieldname": "menu_type",
+   "fieldtype": "Select",
+   "label": "Menu Type",
+   "options": "DocType\nParent\nCustom URL\nDashboard\nCustom"
+  },
+  {
+   "fieldname": "cmenudoctype",
+   "fieldtype": "Link",
+   "label": "DocType",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "orderno",
+   "fieldtype": "Int",
+   "label": "OrderNo"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "dashboard",
+   "fieldtype": "Link",
+   "label": "Dashboard",
+   "options": "Dashboard"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-08 19:49:09.973026",
+ "modified_by": "Administrator",
+ "module": "Custome ulli Menu",
+ "name": "MobileMenu",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

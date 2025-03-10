@@ -1,0 +1,595 @@
+nohup: ignoring input
+15:02:01 system        | redis_cache.1 started (pid=54499)
+15:02:01 system        | redis_queue.1 started (pid=54501)
+15:02:01 system        | watch.1 started (pid=54507)
+15:02:01 redis_cache.1 | 54504:C 19 Sep 2024 15:02:01.572 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:02:01 system        | web.1 started (pid=54512)
+15:02:01 system        | socketio.1 started (pid=54506)
+15:02:01 system        | schedule.1 started (pid=54511)
+15:02:01 redis_cache.1 | 54504:C 19 Sep 2024 15:02:01.586 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=54504, just started
+15:02:01 redis_cache.1 | 54504:C 19 Sep 2024 15:02:01.586 # Configuration loaded
+15:02:01 redis_cache.1 | 54504:M 19 Sep 2024 15:02:01.587 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+15:02:01 redis_cache.1 | 54504:M 19 Sep 2024 15:02:01.588 * Running mode=standalone, port=13000.
+15:02:01 redis_cache.1 | 54504:M 19 Sep 2024 15:02:01.589 # Server initialized
+15:02:01 redis_cache.1 | 54504:M 19 Sep 2024 15:02:01.589 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+15:02:01 redis_cache.1 | 54504:M 19 Sep 2024 15:02:01.589 * Ready to accept connections
+15:02:01 redis_queue.1 | 54508:C 19 Sep 2024 15:02:01.596 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:02:01 redis_queue.1 | 54508:C 19 Sep 2024 15:02:01.598 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=54508, just started
+15:02:01 redis_queue.1 | 54508:C 19 Sep 2024 15:02:01.598 # Configuration loaded
+15:02:01 redis_queue.1 | 54508:M 19 Sep 2024 15:02:01.599 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+15:02:01 redis_queue.1 | 54508:M 19 Sep 2024 15:02:01.600 * Running mode=standalone, port=11000.
+15:02:01 redis_queue.1 | 54508:M 19 Sep 2024 15:02:01.606 # Server initialized
+15:02:01 redis_queue.1 | 54508:M 19 Sep 2024 15:02:01.606 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+15:02:01 redis_queue.1 | 54508:M 19 Sep 2024 15:02:01.606 * Ready to accept connections
+15:02:01 system        | worker.1 started (pid=54521)
+15:02:03 socketio.1    | Realtime service listening on:  9000
+15:02:03 watch.1       | 
+15:02:04 watch.1       | yarn run v1.22.22
+15:02:04 watch.1       | $ node esbuild --watch --live-reload
+15:02:04 web.1         | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+15:02:04 web.1         |  * Running on all addresses (0.0.0.0)
+15:02:04 web.1         |  * Running on http://127.0.0.1:8000
+15:02:04 web.1         |  * Running on http://206.189.87.74:8000
+15:02:04 web.1         | [33mPress CTRL+C to quit[0m
+15:02:04 web.1         |  * Restarting with stat
+15:02:05 web.1         |  * Debugger is active!
+15:02:05 web.1         |  * Debugger PIN: 116-534-576
+15:02:13 watch.1       | Browserslist: caniuse-lite is outdated. Please run:
+15:02:13 watch.1       |   npx update-browserslist-db@latest
+15:02:13 watch.1       |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+15:02:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:22] "GET /app/home HTTP/1.0" 200 -
+15:02:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:23] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:02:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:23] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:02:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:23] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:02:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:23] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:02:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:24] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:02:29 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:29] "GET / HTTP/1.0" 200 -
+15:02:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:02:34] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:02:47 watch.1       | Watching for changes...
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /app/home HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/icons/espresso/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /files/erpnext-logo%20w.png HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css.map HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/css/fonts/inter/InterVariable.woff2 HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css.map HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css.map HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css.map HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:01] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/email.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/submit.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/click.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/cancel.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/delete.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/error.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/sounds/alert.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/erpnext/sounds/incoming-call.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/images/ui-states/notification-empty-state.svg HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/erpnext/sounds/call-disconnect.mp3 HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /assets/frappe/images/ui-states/event-empty-state.svg HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:03:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:02] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:03:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:03] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:03:12 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:12] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "GET /app/home HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "GET /assets/frappe/icons/timeless/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "GET /files/erpnext-logo%20w.png HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:21] "GET /app/home HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /app/home HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /files/erpnext-logo%20w.png HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/delete.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/cancel.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/submit.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/email.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/click.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/error.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/sounds/alert.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/erpnext/sounds/incoming-call.mp3 HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/frappe/images/ui-states/notification-empty-state.svg HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+15:03:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:22] "GET /assets/erpnext/sounds/call-disconnect.mp3 HTTP/1.0" 200 -
+15:03:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:23] "GET /assets/frappe/images/ui-states/event-empty-state.svg HTTP/1.0" 200 -
+15:03:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:23] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:03:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:23] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:03:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:23] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:03:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:23] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:03:28 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:28] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+15:03:29 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:29] "GET /assets/erpnext/dist/css/erpnext-web.bundle.C24MAYIB.css HTTP/1.0" 200 -
+15:03:29 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:29] "GET /assets/frappe/dist/css/website.bundle.K3X4RV5P.css HTTP/1.0" 200 -
+15:03:29 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:29] "GET /website_script.js HTTP/1.0" 200 -
+15:03:31 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:31] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:32] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:32] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:32] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:32] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:32] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:03:33 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:33] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:03:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:35] "GET /app/home HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "GET /api/method/frappe.realtime.get_user_info?sid=4b6ba34bdc0e639e62fcf9bd3d24f7884b53e892398d22748bce206d HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:03:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:36] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:03:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:37] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:03:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:51] "[31m[1mGET /app/home HTTP/1.0[0m" 403 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/frappe/dist/js/frappe-web.bundle.AOOZRKU2.js HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/whitelabel/css/whitelabel_web.css HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/frappe/dist/css/website.bundle.K3X4RV5P.css HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/erpnext/dist/css/erpnext-web.bundle.C24MAYIB.css HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/erpnext/dist/js/erpnext-web.bundle.253I7LT4.js HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /website_script.js HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/frappe/css/fonts/inter/InterVariable.woff2 HTTP/1.0" 200 -
+15:03:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:52] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js HTTP/1.0" 200 -
+15:03:53 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:53] "GET /assets/whitelabel/images/whitelabel_logo.jpg HTTP/1.0" 200 -
+15:03:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:54] "GET /login HTTP/1.0" 200 -
+15:03:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:54] "GET /assets/frappe/dist/css/login.bundle.FI4KQYOH.css HTTP/1.0" 200 -
+15:03:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:03:54] "GET /website_script.js HTTP/1.0" 200 -
+15:04:03 web.1         | /home/erp/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py:190: DeprecationWarning: login: Sending `cmd` for RPC calls is deprecated, call REST API instead `/api/method/cmd`
+15:04:03 web.1         |   resp = f(*args[:-2] + (request,))
+15:04:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:03] "POST /login HTTP/1.0" 200 -
+15:04:04 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:04] "GET /files/erpnext-logo%20w.png HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /app HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/whitelabel/css/whitelabel_app.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/newara/css/newara.css HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/libs.bundle.LLRFRX7M.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/desk.bundle.TG3YXNJ7.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/list.bundle.5ZB637QK.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/form.bundle.JUCRPJBX.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/controls.bundle.6MTOQQJ3.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/report.bundle.RQIKFO5C.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/dist/js/telemetry.bundle.ZJBT5ETW.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/erpnext/dist/js/erpnext.bundle.BQU6KYD2.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/hrms/dist/js/hrms.bundle.M2ST23DP.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/whitelabel/js/whitelabel.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/icons/timeless/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:04:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:05] "GET /assets/frappe/icons/espresso/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/click.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/delete.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/submit.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/cancel.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/email.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/error.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/sounds/alert.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/erpnext/sounds/incoming-call.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/erpnext/sounds/call-disconnect.mp3 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/images/ui-states/notification-empty-state.svg HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /api/method/frappe.realtime.get_user_info?sid=756bb60a0404716bb77acc41dfa93a18a5b193a95548d61a59f789c0 HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "GET /assets/frappe/images/ui-states/event-empty-state.svg HTTP/1.0" 200 -
+15:04:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:06] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "GET /assets/frappe/dist/js/form.bundle.JUCRPJBX.js.map HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "GET /assets/frappe/dist/js/desk.bundle.TG3YXNJ7.js.map HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "GET /assets/frappe/dist/js/list.bundle.5ZB637QK.js.map HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "GET /assets/frappe/dist/js/libs.bundle.LLRFRX7M.js.map HTTP/1.0" 200 -
+15:04:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:07] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /website_script.js HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/frappe/dist/js/controls.bundle.6MTOQQJ3.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/frappe/dist/js/report.bundle.RQIKFO5C.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/frappe/dist/js/telemetry.bundle.ZJBT5ETW.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/erpnext/dist/js/erpnext.bundle.BQU6KYD2.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/hrms/dist/js/hrms.bundle.M2ST23DP.js.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css.map HTTP/1.0" 200 -
+15:04:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:08] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css.map HTTP/1.0" 200 -
+15:04:16 web.1         | 127.0.0.1 - - [19/Sep/2024 15:04:16] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:05:23 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:23] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:05:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:24] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:05:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:24] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:05:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:36] "[31m[1mGET /app/home HTTP/1.0[0m" 403 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/frappe/dist/css/website.bundle.K3X4RV5P.css HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/erpnext/dist/css/erpnext-web.bundle.C24MAYIB.css HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/frappe/dist/js/frappe-web.bundle.AOOZRKU2.js HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/whitelabel/css/whitelabel_web.css HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /website_script.js HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/erpnext/dist/js/erpnext-web.bundle.253I7LT4.js HTTP/1.0" 200 -
+15:05:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:37] "GET /assets/frappe/css/fonts/inter/InterVariable.woff2 HTTP/1.0" 200 -
+15:05:38 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:38] "GET /login HTTP/1.0" 200 -
+15:05:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:39] "GET /assets/frappe/dist/css/login.bundle.FI4KQYOH.css HTTP/1.0" 200 -
+15:05:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:39] "GET /website_script.js HTTP/1.0" 200 -
+15:05:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:39] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js HTTP/1.0" 200 -
+15:05:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:39] "GET /assets/whitelabel/images/whitelabel_logo.jpg HTTP/1.0" 200 -
+15:05:47 web.1         | /home/erp/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py:190: DeprecationWarning: login: Sending `cmd` for RPC calls is deprecated, call REST API instead `/api/method/cmd`
+15:05:47 web.1         |   resp = f(*args[:-2] + (request,))
+15:05:47 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:47] "POST /login HTTP/1.0" 200 -
+15:05:47 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:47] "GET /files/erpnext-logo%20w.png HTTP/1.0" 200 -
+15:05:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:48] "GET /app HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/whitelabel/css/whitelabel_app.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/newara/css/newara.css HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/libs.bundle.LLRFRX7M.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/desk.bundle.TG3YXNJ7.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/list.bundle.5ZB637QK.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/form.bundle.JUCRPJBX.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/controls.bundle.6MTOQQJ3.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/report.bundle.RQIKFO5C.js HTTP/1.0" 200 -
+15:05:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:49] "GET /assets/frappe/dist/js/telemetry.bundle.ZJBT5ETW.js HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/erpnext/dist/js/erpnext.bundle.BQU6KYD2.js HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/hrms/dist/js/hrms.bundle.M2ST23DP.js HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/whitelabel/js/whitelabel.js HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/frappe/icons/espresso/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "GET /assets/frappe/icons/timeless/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:05:50 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:50] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/email.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/submit.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/cancel.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/click.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/error.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/delete.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/erpnext/sounds/incoming-call.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/sounds/alert.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/erpnext/sounds/call-disconnect.mp3 HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/images/ui-states/notification-empty-state.svg HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /api/method/frappe.realtime.get_user_info?sid=ba22fe4aef88ac9b46cc8005a91b43a99acf0dbf4c17b27fc358e49b HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "GET /assets/frappe/images/ui-states/event-empty-state.svg HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:05:51 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:51] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/desk.bundle.TG3YXNJ7.js.map HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/libs.bundle.LLRFRX7M.js.map HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/list.bundle.5ZB637QK.js.map HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/form.bundle.JUCRPJBX.js.map HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/controls.bundle.6MTOQQJ3.js.map HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /website_script.js HTTP/1.0" 200 -
+15:05:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:56] "GET /assets/frappe/dist/js/report.bundle.RQIKFO5C.js.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/frappe/dist/js/telemetry.bundle.ZJBT5ETW.js.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/erpnext/dist/js/erpnext.bundle.BQU6KYD2.js.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /app/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/hrms/dist/js/hrms.bundle.M2ST23DP.js.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css.map HTTP/1.0" 200 -
+15:05:57 web.1         | 127.0.0.1 - - [19/Sep/2024 15:05:57] "GET /app/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:06:01 web.1         | 127.0.0.1 - - [19/Sep/2024 15:06:01] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:11:26 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:26] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Dashboard&with_parent=1&cached_timestamp=&_=1726758350141 HTTP/1.0" 200 -
+15:11:27 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:27] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard&name=Human%20Resource&_=1726758350142 HTTP/1.0" 200 -
+15:11:27 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:27] "GET /assets/frappe/images/ui-states/grid-empty-state.svg HTTP/1.0" 200 -
+15:11:27 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:27] "GET /api/method/frappe.realtime.can_subscribe_doc?sid=ba22fe4aef88ac9b46cc8005a91b43a99acf0dbf4c17b27fc358e49b&doctype=Dashboard&docname=Human%20Resource HTTP/1.0" 200 -
+15:11:28 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:28] "GET /api/method/frappe.realtime.can_subscribe_doc?sid=ba22fe4aef88ac9b46cc8005a91b43a99acf0dbf4c17b27fc358e49b&doctype=Dashboard&docname=Human%20Resource HTTP/1.0" 200 -
+15:11:36 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:36] "POST /api/method/frappe.desk.desk_page.getpage HTTP/1.0" 200 -
+15:11:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:37] "GET /api/method/frappe.desk.reportview.get_list?doctype=Dashboard&fields=["name"]&limit=20&_=1726758350143 HTTP/1.0" 200 -
+15:11:37 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:37] "POST /api/method/frappe.desk.doctype.dashboard.dashboard.get_permitted_cards HTTP/1.0" 200 -
+15:11:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:39] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employee%20Exits%20(This%20Year)&_=1726758350146 HTTP/1.0" 200 -
+15:11:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:39] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=New%20Hires%20(This%20Year)&_=1726758350145 HTTP/1.0" 200 -
+15:11:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:39] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Total%20Employees&_=1726758350144 HTTP/1.0" 200 -
+15:11:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:39] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employees%20Joining%20(This%20Quarter)&_=1726758350147 HTTP/1.0" 200 -
+15:11:39 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:39] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employees%20Relieving%20(This%20Quarter)&_=1726758350148 HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "POST /api/method/frappe.desk.doctype.dashboard.dashboard.get_permitted_charts HTTP/1.0" 200 -
+15:11:40 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:40] "GET /api/method/frappe.desk.reportview.get_list?filters={"name":"hr@demo.com"}&fields=["*"]&doctype=Dashboard%20Settings&limit=20&_=1726758350149 HTTP/1.0" 200 -
+15:11:42 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:42] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Type&_=1726758350151 HTTP/1.0" 200 -
+15:11:42 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:42] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Branch&_=1726758350153 HTTP/1.0" 200 -
+15:11:42 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:42] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Department%20Wise%20Employee%20Count&_=1726758350155 HTTP/1.0" 200 -
+15:11:42 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:42] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Grade&_=1726758350152 HTTP/1.0" 200 -
+15:11:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:43] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Gender%20Diversity%20Ratio&_=1726758350150 HTTP/1.0" 200 -
+15:11:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:43] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Designation%20Wise%20Employee%20Count&_=1726758350154 HTTP/1.0" 200 -
+15:11:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:43] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:43] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:43] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:44 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:44] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:44 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:44] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350159 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350156 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350161 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350157 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350160 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=&_=1726758350158 HTTP/1.0" 200 -
+15:11:48 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:48] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Department%20Wise%20Employee%20Count&_=1726758350164 HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Branch&_=1726758350163 HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Type&_=1726758350162 HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Designation%20Wise%20Employee%20Count&_=1726758350167 HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Gender%20Diversity%20Ratio&_=1726758350166 HTTP/1.0" 200 -
+15:11:49 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:49] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Grade&_=1726758350165 HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /app/home HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/frappe/dist/css/desk.bundle.MZAC23TU.css HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/erpnext/dist/css/erpnext.bundle.4KG3C3QU.css HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/hrms/dist/css/hrms.bundle.FWXVQ5OK.css HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/frappe/dist/css/report.bundle.A5E4EBSB.css HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/cmenu/js/menu_sidebar.js HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/frappe/icons/timeless/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:11:52 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:52] "GET /assets/frappe/icons/espresso/icons.svg?v=1726758167.7978368 HTTP/1.0" 200 -
+15:11:53 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:53] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:11:53 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:53] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:11:53 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:53] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "GET /api/method/frappe.realtime.get_user_info?sid=65a61f53fd23ef2ec45729c26b8cfe6459c65a19a965e166e4e69b99 HTTP/1.0" 200 -
+15:11:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:54] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:11:55 web.1         | 127.0.0.1 - - [19/Sep/2024 15:11:55] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:12:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:03] "GET /robots.txt HTTP/1.0" 200 -
+15:12:04 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:04] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:12:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:06] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=User&with_parent=1&cached_timestamp=&_=1726758712883 HTTP/1.0" 200 -
+15:12:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:06] "POST /api/method/frappe.desk.listview.get_list_settings HTTP/1.0" 200 -
+15:12:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:06] "GET /api/method/frappe.desk.reportview.get_list?fields=["name","filter_name","for_user","filters"]&filters={"reference_doctype":"User"}&or_filters=[["for_user","%3D","Administrator"],["for_user","%3D",""]]&order_by=filter_name%20asc&doctype=List%20Filter&limit=20&_=1726758712884 HTTP/1.0" 200 -
+15:12:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:06] "GET /api/method/frappe.realtime.can_subscribe_doctype?sid=65a61f53fd23ef2ec45729c26b8cfe6459c65a19a965e166e4e69b99&doctype=User HTTP/1.0" 200 -
+15:12:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:06] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+15:12:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:07] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+15:12:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:07] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+15:12:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:07] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "GET /api/method/frappe.desk.form.load.getdoc?doctype=User&name=hr@demo.com&_=1726758712885 HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "GET /api/method/frappe.realtime.can_subscribe_doc?sid=65a61f53fd23ef2ec45729c26b8cfe6459c65a19a965e166e4e69b99&doctype=User&docname=hr@demo.com HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "POST /api/method/frappe.core.doctype.user.user.get_timezones HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "POST /api/method/frappe.core.doctype.user.user.get_all_roles HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "GET /api/method/frappe.realtime.can_subscribe_doc?sid=65a61f53fd23ef2ec45729c26b8cfe6459c65a19a965e166e4e69b99&doctype=User&docname=hr@demo.com HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "POST /api/method/frappe.core.doctype.user.user.get_all_roles HTTP/1.0" 200 -
+15:12:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:08] "GET /api/method/frappe.client.get_single_value?doctype=LDAP%20Settings&field=enabled&_=1726758712886 HTTP/1.0" 200 -
+15:12:16 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:16] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:12:19 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:19] "POST /api/method/frappe.desk.search.search_link HTTP/1.0" 200 -
+15:12:19 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:19] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Workspace&with_parent=1&cached_timestamp=&_=1726758712887 HTTP/1.0" 200 -
+15:12:22 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:22] "POST /api/method/frappe.client.validate_link HTTP/1.0" 200 -
+15:12:27 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:27] "POST /api/method/frappe.desk.form.save.savedocs HTTP/1.0" 200 -
+15:12:28 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:28] "GET /api/method/frappe.realtime.can_subscribe_doc?sid=65a61f53fd23ef2ec45729c26b8cfe6459c65a19a965e166e4e69b99&doctype=User&docname=hr@demo.com HTTP/1.0" 200 -
+15:12:28 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:28] "GET /api/method/frappe.client.get_single_value?doctype=LDAP%20Settings&field=enabled&_=1726758712888 HTTP/1.0" 200 -
+15:12:32 web.1         | /home/erp/frappe-bench/apps/frappe/frappe/handler.py:74: DeprecationWarning: Calling shorthand for logout is deprecated, please specify full path in RPC call.
+15:12:32 web.1         |   method = get_attr(cmd)
+15:12:32 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:32] "POST /api/method/logout HTTP/1.0" 200 -
+15:12:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:34] "GET /login?redirect-to=/app/dashboard-view/Human%2520Resource HTTP/1.0" 200 -
+15:12:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:34] "GET /assets/frappe/dist/css/website.bundle.K3X4RV5P.css.map HTTP/1.0" 200 -
+15:12:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:34] "GET /assets/erpnext/dist/css/erpnext-web.bundle.C24MAYIB.css.map HTTP/1.0" 200 -
+15:12:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:34] "GET /assets/frappe/dist/css/login.bundle.FI4KQYOH.css.map HTTP/1.0" 200 -
+15:12:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:34] "GET /assets/frappe/dist/js/frappe-web.bundle.AOOZRKU2.js.map HTTP/1.0" 200 -
+15:12:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:35] "[33mGET /file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0[0m" 404 -
+15:12:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:35] "GET /website_script.js HTTP/1.0" 200 -
+15:12:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:35] "GET /assets/erpnext/dist/js/erpnext-web.bundle.253I7LT4.js.map HTTP/1.0" 200 -
+15:12:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:35] "GET /assets/frappe/dist/js/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:12:35 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:35] "[33mGET /file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0[0m" 404 -
+15:12:43 web.1         | /home/erp/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py:190: DeprecationWarning: login: Sending `cmd` for RPC calls is deprecated, call REST API instead `/api/method/cmd`
+15:12:43 web.1         |   resp = f(*args[:-2] + (request,))
+15:12:43 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:43] "POST /login HTTP/1.0" 200 -
+15:12:53 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:53] "GET /app/dashboard-view/Human%20Resource HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "GET /app/dashboard-view/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "GET /app/dashboard-view/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "GET /app/dashboard-view/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+15:12:54 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:54] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+15:12:55 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:55] "GET /api/method/frappe.realtime.get_user_info?sid=7ad759e46d84a81bb125b9b5479b9695d3ce287cb4aa8aae00c35513 HTTP/1.0" 200 -
+15:12:55 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:55] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+15:12:55 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:55] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+15:12:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:56] "POST /api/method/frappe.desk.doctype.dashboard.dashboard.get_permitted_cards HTTP/1.0" 200 -
+15:12:56 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:56] "GET /api/method/frappe.desk.reportview.get_list?doctype=Dashboard&fields=["name"]&limit=20&_=1726758773730 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=New%20Hires%20(This%20Year)&_=1726758773732 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employee%20Exits%20(This%20Year)&_=1726758773733 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employees%20Relieving%20(This%20Quarter)&_=1726758773735 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Employees%20Joining%20(This%20Quarter)&_=1726758773734 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Number%20Card&name=Total%20Employees&_=1726758773731 HTTP/1.0" 200 -
+15:12:58 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:58] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_result HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference HTTP/1.0" 200 -
+15:12:59 web.1         | 127.0.0.1 - - [19/Sep/2024 15:12:59] "POST /api/method/frappe.desk.doctype.dashboard.dashboard.get_permitted_charts HTTP/1.0" 200 -
+15:13:00 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:00] "GET /api/method/frappe.desk.reportview.get_list?filters={"name":"hr@demo.com"}&fields=["*"]&doctype=Dashboard%20Settings&limit=20&_=1726758773736 HTTP/1.0" 200 -
+15:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:02] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Branch&_=1726758773740 HTTP/1.0" 200 -
+15:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:02] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Gender%20Diversity%20Ratio&_=1726758773737 HTTP/1.0" 200 -
+15:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:02] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Type&_=1726758773738 HTTP/1.0" 200 -
+15:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:02] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Designation%20Wise%20Employee%20Count&_=1726758773741 HTTP/1.0" 200 -
+15:13:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:02] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Employees%20by%20Grade&_=1726758773739 HTTP/1.0" 200 -
+15:13:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:03] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:03] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:04 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:04] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:04 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:04] "GET /api/method/frappe.desk.form.load.getdoc?doctype=Dashboard%20Chart&name=Department%20Wise%20Employee%20Count&_=1726758773742 HTTP/1.0" 200 -
+15:13:04 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:04] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:13:05 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:05] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:06 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:06] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:07] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Gender%20Diversity%20Ratio&_=1726758773748 HTTP/1.0" 200 -
+15:13:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:07] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Branch&_=1726758773749 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773743 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773745 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773744 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Type&_=1726758773750 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773747 HTTP/1.0" 200 -
+15:13:08 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:08] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773746 HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Employee&with_parent=1&cached_timestamp=2024-01-03%2017:36:20.984421&_=1726758773751 HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "POST /api/method/frappe.desk.doctype.dashboard_chart.dashboard_chart.get HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Employees%20by%20Grade&_=1726758773752 HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Designation%20Wise%20Employee%20Count&_=1726758773753 HTTP/1.0" 200 -
+15:13:09 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:09] "GET /api/method/frappe.client.get?doctype=Dashboard%20Chart&name=Department%20Wise%20Employee%20Count&_=1726758773754 HTTP/1.0" 200 -
+15:13:21 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:21] "POST /api/method/frappe.desk.doctype.workspace.workspace.new_page HTTP/1.0" 200 -
+15:13:31 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:31] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:13:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:34] "POST /api/method/frappe.desk.doctype.workspace.workspace.save_page HTTP/1.0" 200 -
+15:13:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:13:34] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+15:14:24 web.1         | 127.0.0.1 - - [19/Sep/2024 15:14:24] "POST /api/method/frappe.desk.doctype.workspace.workspace.new_page HTTP/1.0" 200 -
+15:14:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:14:34] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+15:21:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:21:07] "GET / HTTP/1.0" 200 -
+15:27:25 web.1         | 127.0.0.1 - - [19/Sep/2024 15:27:25] "[33mGET /news/market-update-steve-alexander HTTP/1.0[0m" 404 -
+15:28:03 web.1         | 127.0.0.1 - - [19/Sep/2024 15:28:03] "GET / HTTP/1.0" 200 -
+15:44:07 web.1         | 127.0.0.1 - - [19/Sep/2024 15:44:07] "GET / HTTP/1.0" 200 -
+15:48:26 web.1         | 47.237.125.252 - - [19/Sep/2024 15:48:26] code 400, message Bad request syntax ('nil')
+15:48:26 web.1         | 47.237.125.252 - - [19/Sep/2024 15:48:26] "[35m[1mnil[0m" HTTPStatus.BAD_REQUEST -
+15:49:50 web.1         | 8.219.2.184 - - [19/Sep/2024 15:49:50] code 400, message Bad request syntax ('nil')
+15:49:50 web.1         | 8.219.2.184 - - [19/Sep/2024 15:49:50] "[35m[1mnil[0m" HTTPStatus.BAD_REQUEST -
+15:52:54 web.1         | 47.237.124.212 - - [19/Sep/2024 15:52:54] code 400, message Bad request syntax ('nil')
+15:52:54 web.1         | 47.237.124.212 - - [19/Sep/2024 15:52:54] "[35m[1mnil[0m" HTTPStatus.BAD_REQUEST -
+15:54:34 web.1         | 127.0.0.1 - - [19/Sep/2024 15:54:34] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.0[0m" 404 -
+16:04:19 web.1         | 127.0.0.1 - - [19/Sep/2024 16:04:19] "GET / HTTP/1.0" 200 -
+16:06:54 web.1         | 127.0.0.1 - - [19/Sep/2024 16:06:54] "GET / HTTP/1.0" 200 -
+16:08:12 web.1         | 127.0.0.1 - - [19/Sep/2024 16:08:12] "GET / HTTP/1.0" 200 -
+16:09:28 web.1         | 127.0.0.1 - - [19/Sep/2024 16:09:28] "GET / HTTP/1.0" 200 -
+16:13:00 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:00] "GET /app/private/dashbord HTTP/1.0" 200 -
+16:13:00 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:00] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "GET /app/private/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "GET /app/private/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/erpnext.accounts.utils.get_fiscal_year HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/frappe.desk.doctype.notification_log.notification_log.get_notification_logs HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/frappe.desk.doctype.event.event.get_events HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "GET /api/method/frappe.realtime.get_user_info?sid=7ad759e46d84a81bb125b9b5479b9695d3ce287cb4aa8aae00c35513 HTTP/1.0" 200 -
+16:13:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:01] "POST /api/method/cmenu.api.get_user_menu HTTP/1.0" 200 -
+16:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:02] "POST /api/method/frappe.desk.desktop.get_workspace_sidebar_items HTTP/1.0" 200 -
+16:13:02 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:02] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+16:13:11 web.1         | 127.0.0.1 - - [19/Sep/2024 16:13:11] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:15:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:44] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=User&with_parent=1&cached_timestamp=2024-03-20%2017:15:19.200383&_=1726750312366 HTTP/1.0" 200 -
+16:15:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:44] "POST /api/method/frappe.desk.listview.get_list_settings HTTP/1.0" 200 -
+16:15:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:44] "GET /api/method/frappe.desk.reportview.get_list?fields=["name","filter_name","for_user","filters"]&filters={"reference_doctype":"User"}&or_filters=[["for_user","%3D","Administrator"],["for_user","%3D",""]]&order_by=filter_name%20asc&doctype=List%20Filter&limit=20&_=1726750312367 HTTP/1.0" 200 -
+16:15:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:45] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:15:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:45] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+16:15:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:45] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+16:15:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:45] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:15:46 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:46] "GET /api/method/frappe.desk.form.load.getdoc?doctype=User&name=hr@demo.com&_=1726750312368 HTTP/1.0" 200 -
+16:15:46 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:46] "POST /api/method/frappe.core.doctype.user.user.get_timezones HTTP/1.0" 200 -
+16:15:47 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:47] "POST /api/method/frappe.core.doctype.user.user.get_all_roles HTTP/1.0" 200 -
+16:15:47 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:47] "POST /api/method/frappe.core.doctype.user.user.get_all_roles HTTP/1.0" 200 -
+16:15:47 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:47] "GET /api/method/frappe.client.get_single_value?doctype=LDAP%20Settings&field=enabled&_=1726750312369 HTTP/1.0" 200 -
+16:15:54 web.1         | 127.0.0.1 - - [19/Sep/2024 16:15:54] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:16:17 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:17] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=User%20Permission&with_parent=1&cached_timestamp=&_=1726750312370 HTTP/1.0" 200 -
+16:16:17 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:17] "POST /api/method/frappe.desk.listview.get_list_settings HTTP/1.0" 200 -
+16:16:17 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:17] "POST /api/method/frappe.client.validate_link HTTP/1.0" 200 -
+16:16:17 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:17] "GET /api/method/frappe.desk.reportview.get_list?fields=["name","filter_name","for_user","filters"]&filters={"reference_doctype":"User%20Permission"}&or_filters=[["for_user","%3D","Administrator"],["for_user","%3D",""]]&order_by=filter_name%20asc&doctype=List%20Filter&limit=20&_=1726750312371 HTTP/1.0" 200 -
+16:16:17 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:17] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:16:18 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:18] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:16:18 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:18] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+16:16:19 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+16:16:20 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:20] "POST / HTTP/1.0" 200 -
+16:16:22 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:22] "POST /api/method/frappe.client.validate_link HTTP/1.0" 200 -
+16:16:25 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:25] "POST /api/method/frappe.desk.search.search_link HTTP/1.0" 200 -
+16:16:27 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:27] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:16:32 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:32] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+16:16:41 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:41] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:16:43 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:43] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=Workspace&with_parent=1&cached_timestamp=2024-05-30%2017:30:36.791171&_=1726750312372 HTTP/1.0" 200 -
+16:16:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:44] "POST /api/method/frappe.desk.listview.get_list_settings HTTP/1.0" 200 -
+16:16:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:44] "GET /api/method/frappe.desk.reportview.get_list?fields=["name","filter_name","for_user","filters"]&filters={"reference_doctype":"Workspace"}&or_filters=[["for_user","%3D","Administrator"],["for_user","%3D",""]]&order_by=filter_name%20asc&doctype=List%20Filter&limit=20&_=1726750312373 HTTP/1.0" 200 -
+16:16:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:44] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:16:44 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:44] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:16:54 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:54] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:16:58 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:58] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:16:59 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:59] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+16:16:59 web.1         | 127.0.0.1 - - [19/Sep/2024 16:16:59] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:17:00 web.1         | 127.0.0.1 - - [19/Sep/2024 16:17:00] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:17:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:17:01] "POST /api/method/frappe.model.utils.user_settings.save HTTP/1.0" 200 -
+16:17:01 web.1         | 127.0.0.1 - - [19/Sep/2024 16:17:01] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:21:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:21:45] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:21:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:21:45] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:26:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:26:45] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:26:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:26:45] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:32:02 web.1         | 127.0.0.1 - - [19/Sep/2024 16:32:02] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:32:02 web.1         | 127.0.0.1 - - [19/Sep/2024 16:32:02] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:33:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:33:45] "GET /app/private/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+16:33:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:33:45] "GET /app/private/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+16:34:29 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:29] "POST /api/method/frappe.desk.desktop.get_desktop_page HTTP/1.0" 200 -
+16:34:34 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:34] "POST /api/method/frappe.desk.desk_page.getpage HTTP/1.0" 200 -
+16:34:35 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:35] "POST /api/method/frappe.desk.page.leaderboard.leaderboard.get_leaderboard_config HTTP/1.0" 200 -
+16:34:35 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:35] "[31m[1mPOST /api/method/frappe.client.validate_link HTTP/1.0[0m" 403 -
+16:34:35 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:35] "GET /api/method/frappe.desk.form.load.getdoctype?doctype=User&with_parent=1&cached_timestamp=&_=1726762380261 HTTP/1.0" 200 -
+16:34:36 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:36] "POST /api/method/frappe.desk.leaderboard.get_energy_point_leaderboard HTTP/1.0" 200 -
+16:34:36 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:36] "GET /assets/frappe/images/ui-states/search-empty-state.svg HTTP/1.0" 200 -
+16:34:45 web.1         | 127.0.0.1 - - [19/Sep/2024 16:34:45] "POST /api/method/frappe.desk.doctype.route_history.route_history.deferred_insert HTTP/1.0" 200 -
+16:36:29 web.1         | 127.0.0.1 - - [19/Sep/2024 16:36:29] "GET /app/leaderboard/file_uploader.bundle.FTOK5J7J.css.map HTTP/1.0" 200 -
+16:36:29 web.1         | 127.0.0.1 - - [19/Sep/2024 16:36:29] "GET /app/leaderboard/file_uploader.bundle.LEMBDWMB.js.map HTTP/1.0" 200 -
+16:37:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:37:08] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:37:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:37:08] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:42:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:42:08] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:42:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:42:08] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:46:12 web.1         |  * Detected change in '/home/erp/frappe-bench/apps/cmenu/cmenu/hooks.py', reloading
+16:46:13 web.1         |  * Restarting with stat
+16:46:14 web.1         |  * Debugger is active!
+16:46:14 web.1         |  * Debugger PIN: 116-534-576
+16:46:22 web.1         |  * Detected change in '/home/erp/frappe-bench/apps/cmenu/cmenu/hooks.py', reloading
+16:46:22 web.1         |  * Restarting with stat
+16:46:24 web.1         |  * Debugger is active!
+16:46:24 web.1         |  * Debugger PIN: 116-534-576
+16:47:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:47:08] "POST /api/method/frappe.desk.reportview.get HTTP/1.0" 200 -
+16:47:08 web.1         | 127.0.0.1 - - [19/Sep/2024 16:47:08] "POST /api/method/frappe.desk.reportview.get_count HTTP/1.0" 200 -
+16:51:19 system        | SIGTERM received
+16:51:19 system        | sending SIGTERM to redis_cache.1 (pid 54499)
+16:51:19 system        | sending SIGTERM to redis_queue.1 (pid 54501)
+16:51:19 system        | sending SIGTERM to web.1 (pid 54512)
+16:51:19 system        | sending SIGTERM to socketio.1 (pid 54506)
+16:51:19 system        | sending SIGTERM to watch.1 (pid 54507)
+16:51:19 system        | sending SIGTERM to schedule.1 (pid 54511)
+16:51:19 system        | sending SIGTERM to worker.1 (pid 54521)
+16:51:19 system        | worker.1 stopped (rc=-15)
+16:51:19 redis_cache.1 | 54504:signal-handler (1726764679) Received SIGTERM scheduling shutdown...
+16:51:19 redis_cache.1 | 54504:M 19 Sep 2024 16:51:19.478 # User requested shutdown...
+16:51:19 redis_cache.1 | 54504:M 19 Sep 2024 16:51:19.478 * Removing the pid file.
+16:51:19 redis_cache.1 | 54504:M 19 Sep 2024 16:51:19.478 # Redis is now ready to exit, bye bye...
+16:51:19 system        | redis_cache.1 stopped (rc=-15)
+16:51:19 redis_queue.1 | 54508:signal-handler (1726764679) Received SIGTERM scheduling shutdown...
+16:51:19 redis_queue.1 | 54508:M 19 Sep 2024 16:51:19.488 # User requested shutdown...
+16:51:19 redis_queue.1 | 54508:M 19 Sep 2024 16:51:19.488 * Removing the pid file.
+16:51:19 redis_queue.1 | 54508:M 19 Sep 2024 16:51:19.488 # Redis is now ready to exit, bye bye...
+16:51:19 system        | redis_queue.1 stopped (rc=-15)
+16:51:19 system        | socketio.1 stopped (rc=-15)
+16:51:19 system        | schedule.1 stopped (rc=-15)
+16:51:19 system        | web.1 stopped (rc=-15)
+16:51:19 system        | watch.1 stopped (rc=-15)
